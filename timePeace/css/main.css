@@ -1,0 +1,306 @@
+body {
+    background-image:url("../images/line.png");
+    background-repeat: repeat-x;
+    background-color: #f2f2f2;
+    width: 960px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-style: oblique;
+    font-weight: lighter;
+    color: lightslategray;
+}
+body a{
+    text-decoration: none;
+    color: #2980b9;
+}
+header {
+    margin-top: 15px;
+}
+.logo {
+    float: left;
+}
+.logIn {
+    width: 150px;
+    height: 80px;
+    float: right;
+}
+.logIn input {
+    width: 144px;
+}
+.error {
+    color: #c1272d;
+    font-size: 12px;
+}
+.logOut {
+    height: 30px;
+    float: right;
+}
+.logOut button {
+    margin-left: 15px;
+}
+input {
+    background-color: #f2f2f2;
+    font-size: small;
+    font-family: Helvetica;
+    font-style: oblique;
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
+button {
+    background-color: #2980b9;
+    border: none;
+    font-size: medium;
+    font-family: Helvetica;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #f2f2f2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cta {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 140px;
+
+}
+.ctaImg {
+    width: 600px;
+    border-top: 5px solid #2980b9;
+}
+.ctaBtn {
+    margin-top: -80px;
+    margin-left: 400px;
+}
+.ctaBtn button{
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: lighter;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.features {
+    height: 130px;
+    width: 960px;
+    background-color: #16a085;
+    margin-top: 30px;
+    font-size: smaller;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 20px;
+}
+.add {
+    width: 200px;
+    float: left;
+    margin-left: 150px;
+}
+.drag {
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+.device {
+    width: 200px;
+    float: left;
+}
+.screenShots {
+     width: 674px;
+     margin: 0 auto;
+ }
+.screenShots img{
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+}
+.screenShots img.ss2{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.register {
+    position: absolute;
+    width: 960px;
+    height: 100%;
+    margin-top: -880px;
+    background-color:rgba(0,0,0,0.5);
+}
+.addNew {
+    position: absolute;
+    width: 960px;
+    height: 100%;
+    margin-top: -520px;
+    background-color:rgba(0,0,0,0.5);
+}
+.popUp {
+    width: 520px;
+    height: 300px;
+    background-image:url("../images/line.png");
+    background-repeat: repeat-x;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+.close {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.form {
+    width: 470px;
+    height: 260px;
+    margin: 0 auto;
+    padding-top: 35px;
+    text-align: center;
+}
+.xl {
+    height: 315px;
+}
+.signUpForm {
+    width:160px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.signUpForm input {
+    width: 160px;
+}
+.signUpForm button {
+    width: 100px;
+}
+.dash {
+    padding-top: 140px;
+}
+.dash img {
+    padding-bottom: 15px;
+}
+.newBtn {
+    float: right;
+}
+.itemList {
+    margin-top: 15px;
+}
+.item {
+    width: 954px;
+    height: 71px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+.itemM {
+    width: 954px;
+    height: 71px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-top: none;
+    clear: both;
+}
+.status {
+    float: left;
+    width: 56px;
+    height: 60px;
+    padding-top: 3px;
+}
+.description {
+    float: left;
+    width: 520px;
+    height: 56px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.title {
+    color: #16a085;
+}
+.dueDate {
+    float: left;
+    width: 170px;
+    height: 56px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.move {
+    float: left;
+    width: 33px;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+}
+.tools {
+    float: left;
+    width: 28px;
+    height: 71px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.tools img {
+    padding: 0;
+    padding-top: 5px;
+}
+.client {
+    text-align: left;
+    margin-top: 10px;
+    width: 480px;
+    height: 25px;
+}
+.name {
+    width: 170px;
+    float: left;
+}
+.email {
+    width: 170px;
+    float: left;
+}
+.form .tools {
+    width: 80px;
+    height: 25px;
+    float: left;
+    padding: 0;
+    margin-top: -10px;
+}
+.form .tools img{
+    padding-left: 10px;
+}
+.newClientBtn {
+    margin-top: 120px;
+}
+.label {
+    width: 105px;
+    text-align: right;
+    float: left;
+    line-height: 200%;
+}
+.inputFields {
+    width: 350px;
+    padding-left: 15px;
+    float: left;
+}
+.inputFields input{
+    width: 340px;
+}
+.inputFields img{
+    width: 35px;
+    height: 35px;
+    padding-right: 40px;
+}
+.statusLabel {
+    width: 350px;
+    height: 30px;
+    text-align: left;
+}
+.statusItem {
+    width: 76px;
+    float: left;
+    text-align: center;
+    font-size: smaller;
+}
+.complete {
+    color: #16a085;
+}
+.urgent {
+    color: #c1272d;
+    margin-left: -5px;
+}
+.active {
+    color: #2980b9;
+    padding-left: 6px;
+}
+.delayed {
+    color: #f17524;
+    padding-left: 6px;
+}
